@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 661px;
+    width: 100%;
+    background-color: #c4c4c4;
+    ;
+}
+
+.main__wrapper {
+    padding: 74px 80px;
+}
+
+.main__search {
+    width: 100%;
+    height: 61px;
+    background-color: #fff;
+    padding: 5px 13px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000;
+    box-sizing: border-box;
+
+}
+
+.main__search::placeholder {
+    align-items: baseline;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+.searcher__select-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.searcher__select-item-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 13px;
+    background-color: #e3e3e3;
+    border: 2px solid #000;
+    width: 100%;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+}
+
+.searcher__select-item-button:hover {
+    background-color: #65cdf9;
+    cursor: pointer;
+}
+
+.searcher__select-item-button:active {
+    opacity: 0.5;
+}
+
+.repos__select-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.repos__select-item-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 34px 8px 16px;
+    align-items: center;
+    background-color: #e27beb;
+    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+
+.repos__button-content-wrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.repos__button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #e27beb;
+    border: 0;
+    cursor: pointer;
+}
+
+.repos__button-close:hover {
+    opacity: 0.5;
+}
+
+.repos__button-close:active {
+    opacity: 0.2;
+}
